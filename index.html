@@ -13,6 +13,26 @@
     body{
       background-image: ;
     }
+    #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 30px;
+    z-index: 99;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: #8e3881;
+    color: white;
+    cursor: pointer;
+    padding: 9px;
+    border-radius: 4px;
+        }
+
+            #myBtn:hover {
+                background-color: #555;
+            }
+
   </style>
 </head>
 <body>
@@ -242,7 +262,7 @@
         <h3><span>ALL RIGHTS RESERVED.</span></h3>
        </div>
        <a href="#top" id="id1" title="To Top">
-    <span class="glyphicon glyphicon-chevron-up"> Top</span>
+    <span id="myBtn" class="glyphicon glyphicon-chevron-up"> Top</span>
   </a>
        </div>
 </body>
